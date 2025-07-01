@@ -56,8 +56,8 @@ Rails.application.configure do
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
-
-  config.sctive_job.queue_adapter = :inline
+  
+  config.active_job.queue_adapter = :inline
 
   config.assets.debug = true
 
